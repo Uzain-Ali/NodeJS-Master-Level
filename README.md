@@ -53,3 +53,13 @@ Architecture:
     -if blocking =>thread pool[thread:worker]=>result=>Response
     -Initially/default we have 4 threads 
     -Max? = 8core so 8 threads
+
+HTTP Server:
+
+URL: Uniforn Resource Locator
+    =https://www.uzainali.com/
+        -https://[Protocol][Secure][http:Not Secure,no ssl certificate][Hypertext Transfer Protocol Secure]
+        -www.uzainali.com: [Domain][User Friendly of IP Address of my server]
+        -/[Path, homepage, root path]
+        -we can have many path. nested path also
+        -Query Parameter[Extra information we can pass on the url][after ?]
