@@ -71,3 +71,36 @@ HTTP METHOD:
     - PUT: file or image upload
     -PATCH: Update
     -DELETE: delete data
+
+
+ExpressJS:
+    -Framework/Library
+    -app is basically a handler function
+    -http module is already in express
+    -app.method(path, handler)
+
+Versioning:
+    -imporant in security pov
+    -i can hack your whole server
+    -4.18.2
+        -1st part -> 4[Major/Breaking Release/Update][if app is in 4 version and now you're using 5 version your app will break]
+        -2nd part -> 18[Recommended Bug Fix][Security Fix][Functionality add]
+        -3rd part -> 2[minor fixes][Optional update]
+        -"^":Install all recommended and minor updates
+        -"^4.18.2":compatible with version[4.18.2 => < 5.0.0]
+        -"~":only install minor updates
+        -range: 4.0.0 - 4.9-9
+        -"or operatore":4.18.2 || 4.17.2 
+        -latest: install latest version
+        -npm i express@4.18.2
+
+
+RESTfull/REST API:
+    -The rules follows by server and client on sending requests and responses
+    -SSR: SERvers Side Rendering[page rendered on server, page developed on server]
+    -JSON:key value pair
+    -type of api
+    -Rules:
+        -Server Client Architecture[Server and clients and diff machines they're not dependent on each other]
+        -Always respect all http methods[use respected method for relative task]
+        -Authentication/Authorization
