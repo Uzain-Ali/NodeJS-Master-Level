@@ -63,3 +63,11 @@ URL: Uniforn Resource Locator
         -/[Path, homepage, root path]
         -we can have many path. nested path also
         -Query Parameter[Extra information we can pass on the url][after ?]
+        -Server: Req=> url parsing=>get data from database =>provide data
+
+HTTP METHOD:
+    -GET: GET DATA FROM SERVER[Read]
+    -POST: Send and mutate data in server[Write][form data usually]
+    - PUT: file or image upload
+    -PATCH: Update
+    -DELETE: delete data
