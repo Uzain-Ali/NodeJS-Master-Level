@@ -104,3 +104,8 @@ RESTfull/REST API:
         -Server Client Architecture[Server and clients and diff machines they're not dependent on each other]
         -Always respect all http methods[use respected method for relative task]
         -Authentication/Authorization
+    -mockaro.com: fake data generator
+
+
+
+
