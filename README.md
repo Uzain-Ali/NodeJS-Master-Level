@@ -109,3 +109,15 @@ RESTfull/REST API:
 
 
 
+Middleware:
+    -Middle man
+    -req first go to middleware => middleware process the request
+    -it can check the user, is it a hacker?
+    -if mw things it's not a good req it return it and it can't go to server and end the req res cycle
+    -it runs on every req and res
+    -one code could have multiple mw
+    -function has req res access
+    -it's a plugin
+    -{app.use(express.urlencoded({extended:false}))} form data handling
+    -make changes in the req and res
+    
