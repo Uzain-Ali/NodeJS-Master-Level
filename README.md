@@ -170,4 +170,8 @@ Mongoose:
     -Schema - Define the structure
     -Schema - Model
     -Using Model we perform CRUD Operation
-    
+
+
+MVC(Model View Controller):
+    -3 components(model, view, controller)
+    -Controller manipulate ther model then model update the view
