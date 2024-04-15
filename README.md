@@ -120,4 +120,32 @@ Middleware:
     -it's a plugin
     -{app.use(express.urlencoded({extended:false}))} form data handling
     -make changes in the req and res
+
     
+HTTP Headers:
+    -The outside information of request/packets like information on the outside of an envelope
+    -represent the meta-data associated with the API res, and req
+    -Additional information of req and res
+    -User:Agent[the device used to develop the req]
+    -Accept: data type[json]
+    -always add X to custom headers
+    -built in middleware works based on http-headers
+
+
+Status Codes:
+    -indicates whethera a specific http request has been successfully completed
+    -Informational Response: (100-199)
+    -Successful Response: (200-299)
+    -Redirection Response: (300-399)[url shortener]
+    -Client Error Response: (400-499)
+    -Server Error Response: (500-599)
+
+    -200:OK
+    -201-Created
+    -404-Not Found:
+    -400 bad request{all field are required}
+    -401-unauthorized
+    -402-payment required
+    -403-forbidden
+    -500-server internal error
+    -503-service unavailable

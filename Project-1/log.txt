@@ -1,1 +1,12 @@
 1713167504404: GET: /users
+
+1713168260281: GET: /api/users
+1713168644760: GET: /api/users
+1713169851863: POST: /api/users
+1713171919603: POST: /api/users/
+1713172171936: POST: /api/users/
+1713172361964: POST: /api/userss
+1713172369865: POST: /api/users/1
+1713172373620: POST: /api/users/1
+1713172378387: GET: /api/users/1
+1713172385531: GET: /api/users/1.2
