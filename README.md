@@ -149,3 +149,25 @@ Status Codes:
     -403-forbidden
     -500-server internal error
     -503-service unavailable
+
+
+MongDB:
+    -No-sql document based database
+    -strong support for aggregation pipes
+    -works on BSON format
+    -best for node app
+
+    -Collections
+    -under collection we have documents
+    -show dbs
+    -use db
+    -show collections
+    -db.collectionName.find({})
+    -db.collectionName.insertOne({})
+
+
+Mongoose:
+    -Schema - Define the structure
+    -Schema - Model
+    -Using Model we perform CRUD Operation
+    
