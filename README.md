@@ -56,7 +56,7 @@ Architecture:
 
 HTTP Server:
 
-URL: Uniforn Resource Locator
+URL: Uniform Resource Locator
     =https://www.uzainali.com/
         -https://[Protocol][Secure][http:Not Secure,no ssl certificate][Hypertext Transfer Protocol Secure]
         -www.uzainali.com: [Domain][User Friendly of IP Address of my server]
